@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<title> ovili</title>
+	</head>
+	<body> <h1> Signup Page </h1>
+		<br>
+		<form>
+			<fieldset>
+				<legend> Account Information </legend>
+				<!-- this section highlight basic informations of the form-->
+
+				<label for=Full_name>Full Name:</label> <br>
+				<input type="text" id="full_name" name="full_name"> <br>
+
+				<label for=username>Username:</label> <br>
+				<input type="text" id="username" name="Username"> <br>
+
+				<label for=Email>Email: </label> <br>
+				<input type="Email" id="Email" name="Email"> <br>
+
+				<label for=password>Password: </label> <br>
+				<input type="password" id="password" name="Password" required> <br>
+
+				<label for=confirm_password> confirm password: </label> <br>
+				<input type="confirm_password" id="confirm_password" name="confirm_password" required> <br>
+				
+			</fieldset>
+			<br> <br> 
+			
+			<fieldset>
+				<legend> Personal Details </legend>
+				<!-- personal details using radio buttons and  checkbox-->
+				
+				<label for=gender>gender:</label><br>
+
+				Female:
+				<input type="radio" id="female" name="gender" value="female"> <br>
+
+				Male:
+				<input type="radio" id="male" name="gender" value="male"> <br>
+				
+				<!--checkbox-->
+
+				Hobbies:
+				<br>
+				<input type="checkbox" name="" checked="checked"> Coding<br>
+				<input type="checkbox" name=""> Reading <br>
+				<input type="checkbox" name=""> Sports <br>
+				<input type="checkbox" name=""> Music <br>
+
+				<!--date input-->
+				<legend>Date of Birth:</legend>
+				<input type="date" name="day"> <br>
+
+				<!--city and short bio-->
+				<select>
+				City:
+				<option value="Maritius"> Maritius </option>
+				<option value="VI"> VI </option>
+				<option value="Asaba"> Asaba </option>
+				</select> <br>
+				
+				<label for="short bio">Short Bio:</label><br>
+				<textarea id="short bio" name="Short Bio" rows="5" column="50"> </textarea> <br>
+				<br>
+			</fieldset>
+
+			<!--preference using Radio button-->
+			<label for="preferred contact method">Preferred Contact Method:</label> <br>
+			Email:
+			<input type="radio" id="Email" name="email/phone/sms" value=""> <br>
+
+			Phone:
+			<input type="radio" id="Phone" name="email/phone/sms" value=""> <br>
+
+			SMS:
+			<input type="radio" id="SMS" name="email/phone/sms" Value=""> <br>
+			
+
+			<input type="checkbox" name="" checked="checked by default"> Newsletters<br>
+			<br>
+
+			<input type="Submit" value="Signup">
+		</form>
+
+	</body>
+</html>
